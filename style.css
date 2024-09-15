@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+#otp-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#otp-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#otp-boxes-list-id{
+    display: flex;
+}
+
+#otp-boxes-list-id #otp-box{
+   height: 20px;
+   width: 20px;
+   padding: 10px;
+   margin: 5px;
+   box-shadow: 1px 2px 1px 1px green;
+   border: none;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+.success{
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 10px;
+}
+.fail{
+    color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+}
